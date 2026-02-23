@@ -13,3 +13,15 @@ experiments/*/log*/*
 experiments/*/arun_log*/*
 experiments/*/*result*/*
 experiments/*/*vis*/*
+
+# 数据集文件（太大不提交）
+data/MVTec-AD/mvtec_anomaly_detection/
+data/MVTec-AD/*.tar.zip
+data/MVTec-AD/*.tar.xz
+data/CIFAR-10/cifar-10-batches-py/
+data/CIFAR-10/*.tar.gz
+
+# 训练产物
+*.pth
+*.pth.tar
+train.log
